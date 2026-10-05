@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-cleanup",
+  "description": "Чистка накопившихся скиллов Claude Code: таблица использования по истории сессий и обратимый карантин — только то, что вы выбрали сами.",
+  "owner": {
+    "name": "melekhinartem19-hue",
+    "url": "https://github.com/melekhinartem19-hue"
+  },
+  "plugins": [
+    {
+      "name": "skill-cleanup",
+      "source": "./plugins/skill-cleanup",
+      "description": "Показывает, как использовался каждый скилл (вызовы моделью и вручную, чтение файлов, ссылки из CLAUDE.md и агентов, дубли), и точечно переносит выбранные в карантин после явного «да». Ничего не стирает, возврат одной командой.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "cleanup",
+        "quarantine",
+        "usage",
+        "maintenance",
+        "russian"
+      ]
+    }
+  ]
+}

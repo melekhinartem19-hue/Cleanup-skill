@@ -1,0 +1,22 @@
+{
+  "name": "skill-cleanup",
+  "version": "1.0.0",
+  "description": "Чистка скиллов Claude Code: таблица использования по истории сессий и обратимый карантин для тех, что вы выбрали сами.",
+  "author": {
+    "name": "melekhinartem19-hue",
+    "url": "https://github.com/melekhinartem19-hue"
+  },
+  "repository": "https://github.com/melekhinartem19-hue/Cleanup-skill",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "cleanup",
+    "quarantine",
+    "usage",
+    "maintenance",
+    "russian"
+  ],
+  "skills": [
+    "./skills/skill-cleanup"
+  ]
+}
